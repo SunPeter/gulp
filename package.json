@@ -17,8 +17,10 @@
   },
   "dependencies": {
     "gulp-clean": "^0.3.1",
-    "gulp-livereload": "^3.8.0",
     "gulp-rev-all": "^0.8.18",
-    "gulp-ruby-sass": "^1.0.5"
+    "gulp-ruby-sass": "^1.0.5",
+    "browser-sync":"^2.7.3",
+    "gulp-concat":"^2.5.2",
+    "gulp-uglify":"^1.1.0"
   }
 }
