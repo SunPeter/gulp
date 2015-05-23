@@ -1,0 +1,28 @@
+$base:"../image/";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:100%;
+	height:2000px;
+	background: url(#{$base}0.jpg);
+
+}
+div{
+	float: left;
+	width:50%;
+	height:100%;
+}
+.left{
+	background: url(#{$base}0.png);
+}
+.right{
+	background: url(#{$base}0.jpg);
+}
+.a{
+	background: url(#{$base}0.png);
+}
+.b{
+	background: url(#{$base}0.png);
+}

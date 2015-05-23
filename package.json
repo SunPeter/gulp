@@ -1,0 +1,24 @@
+{
+  "name": "gulp",
+  "version": "1.0.1",
+  "description": "Gulp Demo",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "User",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "",
+    "gulp-jshint": "~1.9.2"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.3.1",
+    "gulp-livereload": "^3.8.0",
+    "gulp-rev-all": "^0.8.18",
+    "gulp-ruby-sass": "^1.0.5"
+  }
+}
