@@ -70,7 +70,7 @@ gulp.task("watch",function(){
 })
 
 gulp.task("dev",["static","browser-sync","watch"],function(){
-	console.log("开发模式已启动")
+	console.log("开发模式已启动!")
 })
 
 gulp.task("publish",["clean"],function(){
