@@ -7,7 +7,7 @@ var gulp=require("gulp"),
 	RevAll=require("gulp-rev-all"),
 	clean=require("gulp-clean")
 
-
+// master
 cdn=[
 "http://res.m.yystatic.com/",
 "http://res0.m.yystatic.com/",
