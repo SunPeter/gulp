@@ -92,3 +92,9 @@ gulp.task("publish",["clean"],function(){
 		.pipe(gulp.dest("publish"))
 	console.log("发布完成，可以上线！")
 })
+
+
+
+function test(){
+	var name="gulp1"
+}
