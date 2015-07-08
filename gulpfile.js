@@ -1,4 +1,3 @@
-//change 2015070801
 var gulp=require("gulp"),
 	concat=require("gulp-concat"),
 	jshint=require("gulp-jshint"),
@@ -94,7 +93,7 @@ gulp.task("publish",["clean"],function(){
 })
 
 
-
 function test(){
-	var name="gulp1"
+	var name=gulp2;
 }
+
