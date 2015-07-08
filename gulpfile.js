@@ -1,3 +1,4 @@
+//change 2015070801
 var gulp=require("gulp"),
 	concat=require("gulp-concat"),
 	jshint=require("gulp-jshint"),
@@ -7,7 +8,7 @@ var gulp=require("gulp"),
 	RevAll=require("gulp-rev-all"),
 	clean=require("gulp-clean")
 
-// master
+
 cdn=[
 "http://res.m.yystatic.com/",
 "http://res0.m.yystatic.com/",
