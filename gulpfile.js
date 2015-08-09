@@ -1,7 +1,7 @@
 var gulp=require("gulp"),
 	concat=require("gulp-concat"),
 	jshint=require("gulp-jshint"),
-	sass=require("gulp-ruby-sass"),
+	compass = require('gulp-compass'),
 	uglify=require("gulp-uglify"),
 	browserSync=require("browser-sync"),
 	RevAll=require("gulp-rev-all"),
@@ -24,12 +24,12 @@ gulp.task("js",function(){
 
 
 gulp.task('sass', function() {  
-	//directory
-  return sass('src/sass',{style:"compressed"})
-  	.on('error', function (err) {
-            console.error('Error!', err.message);
-    })
-    .pipe(gulp.dest('dest/css'))
+	gulp.src('src/sass/*.scss')
+    .pipe(compass({
+      config_file: 'config.rb',
+      sass: 'src/sass'
+    }))
+    .pipe(gulp.dest('dest/css'));
 });
 
 gulp.task("html",function(){
